@@ -12,7 +12,6 @@ Comando a implementar:  `node script.js --list`
 
 Crea el código mínimo y necesario para mostrar todos los gastos por el terminal siguiendo este formato:
 
-![](https://oscarm.tinytake.com/media/1756551?filename=1745493512704_TinyTake24-04-2025-01-18-27_638810903113094989.png&sub_type=thumbnail_preview&type=attachment&width=400&height=103)
 
 ## Iteración 2
 
@@ -28,22 +27,45 @@ Muestra por eltemrinal todos los gastos igual que hemos hecho en la Iteración 1
 
 ## Iteración 4
 
+Comando a implementar `node script.js --find 3`
+
+Muestra por consola **únicamente** el gato con id = 3
+
+## Iteración 5
+
 Comando a implementar: `node script.js --add "Flight Ticket" "Transport" 299`
 
 Añade un nuevo gasto y lo guarda en el fichero __expenses.json__
 
-
-## Iteración 5
+## Iteración 6
 
 Comando a implementar: `node script.js --delete 3`
 
 Elimina el gasto con el identificador 3 y guarda los cambios en el fichero __expenses.json__
 
-## Iteración 6: Chat GPT desencadenado
+## Iteración 7: Chat GPT guiado
+
+Usa Chat GPT para utilizar el método de array _sort_ adecudamente y poder ordenar
+
+Comando a implementar: `node script.js --sort ASC`
+
+Muestra todo los gastos ordenador de forma creciente
+
+Comando a implementar: `node script.js --sort DESC`
+
+Muestra todos los gatos ordenados de foram decreciente
+
+## Iteración 8: Chat GPT desencadenado
 
 Comando a implementar: `node script.js --export-file expenses.csv`
 
-Exporta el contenido del fichero expenses.json a un fichero de formato CSV
+Usa Chat GPT para crear un comando que permita exportar el contenido del fichero expenses.json a un fichero de formato CSV. 
+
+## Bonus
+
+Investiga como la biblioteca [Commander](https://www.npmjs.com/package/commander) puede ayudarte a crear programa de línea de comandos y vuelve a implementar el ejercicio usando esta herramienta. P
+
+
 
 
 
