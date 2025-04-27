@@ -28,9 +28,11 @@ Estamos ante una operación habitual de recorrer un array y acumular un valor. [
 
 ## Iteración 3
 
-Comando a implementar:  `node script.js --filter-category Food`
+Comando a implementar:  `node script.js --filter-category food`
 
 Muestra por eltemrinal todos los gastos igual que hemos hecho en la Iteración 1, pero esta vez, solo aquellos que sean de la cateogría "Food". El script debe funcionar obviamente también para cualquier categoría.
+
+![](https://oscarm.tinytake.com/media/1757c4f?filename=1745748451175_TinyTake27-04-2025-12-07-26_638813452488731152.png&sub_type=thumbnail_preview&type=attachment&width=1192&height=129)
 
 ## Iteración 4
 
