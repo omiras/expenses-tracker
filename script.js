@@ -37,6 +37,15 @@ else if (command == "--filter-category") {
     }
 }
 
+else if( command == "--find") {
+    const id = process.argv[3]; // obtener el id del gasto de los argumentos
+    for (const e of expenses) {
+        if (e.id == id) {
+            displayExpense(e);
+        }
+    }
+}
+
 function displayExpense(expense) {
     console.log(`#${expense.id} ${new Date(expense.timestamp * 1000).toLocaleDateString()} ${expense.concept} ${expense.category} ${expense.amount} €`);
 }
