@@ -12,14 +12,13 @@ const command = process.argv[2];
 if (command == "--list") {
     console.log("ID Date Concept Category Amount");
     console.log("-------------------------------------------------");
-     for (const e of expenses) {
-        console.log(`#${e.id} ${new Date(e.timestamp * 1000).toLocaleDateString()} ${e.concept} ${e.category} ${e.amount} €`);
+    for (const e of expenses) {
+        displayExpense(e);
     }
 }
 
 // Iteration 2
-else if (command == "--summary") 
-{
+else if (command == "--summary") {
     let total = 0;
     for (const e of expenses) {
         total += e.amount;
@@ -27,14 +26,17 @@ else if (command == "--summary")
     console.log(`Total: ${total} €`);
 }
 
-else if (command == "--filter-category") 
-{
+else if (command == "--filter-category") {
     const category = process.argv[3]; // obtener la cateogoría de los argumentos
     console.log("ID Date Concept Category Amount");
     console.log("-------------------------------------------------");
     for (const e of expenses) {
         if (e.category == category) {
-            console.log(`#${e.id} ${new Date(e.timestamp * 1000).toLocaleDateString()} ${e.concept} ${e.category} ${e.amount} €`);
+            displayExpense(e);
         }
     }
+}
+
+function displayExpense(expense) {
+    console.log(`#${expense.id} ${new Date(expense.timestamp * 1000).toLocaleDateString()} ${expense.concept} ${expense.category} ${expense.amount} €`);
 }
