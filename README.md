@@ -38,7 +38,9 @@ Muestra por eltemrinal todos los gastos igual que hemos hecho en la Iteración 1
 
 Comando a implementar `node script.js --find 3`
 
-Muestra por consola **únicamente** el gato con id = 3
+Muestra por consola **únicamente** el gadto con id = 3. O cualquier otro _id_ que se pase como argumento
+
+![](https://oscarm.tinytake.com/media/1757c57?filename=1745748801700_TinyTake27-04-2025-12-13-14_638813455995692796.png&sub_type=thumbnail_preview&type=attachment&width=785&height=41)
 
 ## Iteración 5
 
