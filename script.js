@@ -26,3 +26,15 @@ else if (command == "--summary")
     }
     console.log(`Total: ${total} €`);
 }
+
+else if (command == "--filter-category") 
+{
+    const category = process.argv[3]; // obtener la cateogoría de los argumentos
+    console.log("ID Date Concept Category Amount");
+    console.log("-------------------------------------------------");
+    for (const e of expenses) {
+        if (e.category == category) {
+            console.log(`#${e.id} ${new Date(e.timestamp * 1000).toLocaleDateString()} ${e.concept} ${e.category} ${e.amount} €`);
+        }
+    }
+}

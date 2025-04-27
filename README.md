@@ -25,7 +25,7 @@ Devuelve un mensaje por el terminal indicando el gasto total acumulado
 
 Comando a implementar:  `node script.js --filter-category Food`
 
-Muestra por eltemrinal todos los gastos igual que hemos hecho en la Iteración 1, pero esta vez, solo aquellos que sean de la cateogría "Food". El script debe funcionar obviamente también para cualquier categoría.
+Muestra por el temrinal todos los gastos igual que hemos hecho en la Iteración 1, pero esta vez, solo aquellos que sean de la cateogría "Food". El script debe funcionar obviamente también para cualquier categoría.
 
 ## Iteración 4
 
