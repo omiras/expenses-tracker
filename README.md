@@ -1,6 +1,6 @@
 # Expenses Trackers
 
-Queremos crear un gestor de gastos parecido a [esto proyecto](https://roadmap.sh/projects/expense-tracker) pero con algunos cambios para simplificarlo y potenciar otras areas de la programación
+Queremos crear un gestor de gastos parecido a [esto proyecto](https://roadmap.sh/projects/expense-tracker) pero con algunos cambios para simplificarlo y potenciar otras areas de la programación.
 
 ## Arquitectura
 
@@ -14,11 +14,17 @@ Crea el código mínimo y necesario para mostrar todos los gastos por el termina
 
 ![](https://oscarm.tinytake.com/media/1757c44?filename=1745747365652_TinyTake27-04-2025-11-49-20_638813441634408833.png&sub_type=thumbnail_preview&type=attachment&width=796&height=1)
 
+Practica el bucle [for..of](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/for...of#pru%C3%A9balo)
+
 ## Iteración 2
 
 Comando a implementar:  `node script.js --summary`
 
-Devuelve un mensaje por el terminal indicando el gasto total acumulado
+Devuelve un mensaje por el terminal indicando el gasto total acumulado.
+
+![](https://oscarm.tinytake.com/media/1757c49?filename=1745747971838_TinyTake27-04-2025-11-59-28_638813447695055042.png&sub_type=thumbnail_preview&type=attachment&width=795&height=39)
+
+Estamos ante una operación habitual de recorrer un array y acumular un valor. [ejemplo](https://github.com/omiras/ejemplos-javascript-pimec-front-end/blob/main/arrays/manera-recorrer-arrays.js)
 
 ## Iteración 3
 
