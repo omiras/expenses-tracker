@@ -72,7 +72,12 @@ Comando a implementar: `node script.js --export-file expenses.csv`
 
 Usa Chat GPT para crear un comando que permita exportar el contenido del fichero expenses.json a un fichero de formato CSV. 
 
-## Bonus
+## Bonus 1
+
+Mueve el fichero expenses.json a la carpeta **files** (tendrás que crearla). Modifica tu script para que ahora consuma el fichero de esa carpeta. Utiliza el módulo interno [**path**](https://www.w3schools.com/nodejs/met_path_join.asp) para acceder al a la ruta del fichero e investiga porque esto se considera una práctica.
+
+## Bonus 2
+
 
 Investiga como la biblioteca [Commander](https://www.npmjs.com/package/commander) puede ayudarte a crear programa de línea de comandos y vuelve a implementar el ejercicio usando esta herramienta. P
 
