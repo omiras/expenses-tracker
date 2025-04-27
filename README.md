@@ -12,6 +12,8 @@ Comando a implementar:  `node script.js --list`
 
 Crea el código mínimo y necesario para mostrar todos los gastos por el terminal siguiendo este formato:
 
+![](https://oscarm.tinytake.com/media/1757c44?filename=1745747365652_TinyTake27-04-2025-11-49-20_638813441634408833.png&sub_type=thumbnail_preview&type=attachment&width=796&height=150)
+
 
 ## Iteración 2
 
