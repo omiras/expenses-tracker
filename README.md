@@ -48,6 +48,23 @@ Comando a implementar: `node script.js --add "Flight Ticket" "Transport" 299`
 
 Añade un nuevo gasto y lo guarda en el fichero __expenses.json__
 
+La idea es:
+
+1. Añadir el nuevo objeto el array de objetos 
+2. Escribir todo el array de objetos de vuelta en el fichero _expenses.json_. 
+
+<details>
+  <summary>Ayuda</summary>
+  <pre>
+    const fs = require('fs');
+
+    const data = JSON.parse(fs.readFileSync('archivo.json', 'utf-8'));
+    data.push({ nuevo: 'objeto' });
+    fs.writeFileSync('archivo.json', JSON.stringify(data));
+
+  </pre>
+</details>
+
 ## Iteración 6
 
 Comando a implementar: `node script.js --delete 3`
