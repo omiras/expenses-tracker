@@ -46,6 +46,20 @@ else if( command == "--find") {
     }
 }
 
+else if (command == "--add") {
+    const newExpense = {
+        id: expenses.at(-1).id + 1, // simple ID generation
+        timestamp: Math.floor(Date.now() / 1000), // current timestamp
+        concept: process.argv[3],
+        category: process.argv[4],
+        amount: parseFloat(process.argv[5])
+    };
+    expenses.push(newExpense);
+    console.log("Expense added:");
+    displayExpense(newExpense);
+    fs.writeFileSync("expenses.json", JSON.stringify(expenses));
+}
+
 function displayExpense(expense) {
     console.log(`#${expense.id} ${new Date(expense.timestamp * 1000).toLocaleDateString()} ${expense.concept} ${expense.category} ${expense.amount} €`);
 }

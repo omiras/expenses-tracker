@@ -35,9 +35,12 @@ Muestra por consola **únicamente** el gato con id = 3
 
 ## Iteración 5
 
-Comando a implementar: `node script.js --add "Flight Ticket" "Transport" 299`
+Comando a implementar: `node script.js --add "Flight Ticket" "transport" 299`
+Como fecha añadir la fecha actual.
 
 Añade un nuevo gasto y lo guarda en el fichero __expenses.json__
+
+![](https://oscarm.tinytake.com/media/1757eee?filename=1745820326065_TinyTake28-04-2025-08-05-19_638814171254094956.png&sub_type=thumbnail_preview&type=attachment&width=1198&height=291)
 
 ## Iteración 6
 
