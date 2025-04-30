@@ -60,6 +60,26 @@ else if (command == "--add") {
     fs.writeFileSync("expenses.json", JSON.stringify(expenses));
 }
 
+else if (command == "--delete") {
+    const id = process.argv[3];
+    let index = 0;
+    let found = false;
+
+    while (!found && index < expenses.length) {
+        if (expenses[index].id == id) {
+            console.log("Expense to remove: ", expenses[index]);
+            expenses.splice(index, 1); // Remove and store the removed expense
+            fs.writeFileSync("expenses.json", JSON.stringify(expenses));
+            found = true;
+        }
+        index++;
+    }
+
+    if (!found) {
+        console.log("Error: Expense with the specified ID not found.");
+    }
+}
+
 function displayExpense(expense) {
     console.log(`#${expense.id} ${new Date(expense.timestamp * 1000).toLocaleDateString()} ${expense.concept} ${expense.category} ${expense.amount} €`);
 }
