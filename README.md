@@ -48,6 +48,10 @@ Comando a implementar: `node script.js --delete 3`
 
 Elimina el gasto con el identificador 3 y guarda los cambios en el fichero __expenses.json__
 
+¡Atención! Este ejercicio es más complejo de lo que parece. Eliminar un elemento en un array puede ser problemático porque los índices son modificados. 
+
+![](https://oscarm.tinytake.com/media/1759cd5?filename=1745994650287_TinyTake30-04-2025-08-30-45_638815914483409219.png&sub_type=thumbnail_preview&type=attachment&width=795&height=143)
+
 ## Iteración 7: Chat GPT guiado
 
 Usa Chat GPT para utilizar el método de array _sort_ adecudamente y poder ordenar
