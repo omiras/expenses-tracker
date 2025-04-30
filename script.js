@@ -24,6 +24,19 @@ if (command == "--list") {
     }
 }
 
+// Iteración 2
+
+else if (command == "--summary") {
+    // TODO: Recorrer todo el array de expenses y sumar todos los valores de 'amount'
+      // Necesitamos una variable para acumular la suma total
+    let total = 0;
+
+    for (const e of expenses) {
+        total = total + e.amount;
+    }
+    console.log(`Total: ${total}`);
+}
+
 
 // Iteración 5
 

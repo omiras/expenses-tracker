@@ -1,0 +1,46 @@
+const expenses = [
+    {
+      "id": 1,
+      "timestamp": 1745452800,
+      "category": "food",
+      "concept": "Business meeting",
+      "amount": 20
+    },
+    {
+      "id": 2,
+      "timestamp": 1745539200,
+      "category": "groceries",
+      "concept": "Weekly groceries",
+      "amount": 45.50
+    },
+    {
+      "id": 3,
+      "timestamp": 1745625600,
+      "category": "transport",
+      "concept": "Bus ticket",
+      "amount": 10
+    },
+    {
+      "id": 4,
+      "timestamp": 1745712000,
+      "category": "entertainment",
+      "concept": "Movie night",
+      "amount": 30
+    },
+    {
+      "id": 5,
+      "timestamp": 1745798400,
+      "category": "food",
+      "concept": "Coffee break",
+      "amount": 3.20
+    }
+  ];
+
+let sumaTotal = 0;
+
+for (const e of expenses) {
+    console.log(e.amount);
+    sumaTotal = sumaTotal + e.amount;
+}
+
+console.log(`Total: ${sumaTotal}`);
